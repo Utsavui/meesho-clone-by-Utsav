@@ -1,0 +1,38 @@
+[
+  {
+    "text": "cotton saree",
+    "image": "http://localhost:5000/imgs/saree1.webp",
+    "price": 1500,
+    "delivery": "free delivery",
+    "ratings": 4.5,
+    "description": "High quality cotton saree with beautiful designs",
+    "size": "free size"
+  },
+  {
+    "text": "silk saree",
+    "image": "http://localhost:5000/imgs/saree2.webp",
+    "price": 3000,
+    "delivery": "free delivery",
+    "ratings": 4.8,
+    "description": "Elegant silk saree perfect for weddings and parties",
+    "size": "free size"
+  },
+  {
+    "text": "chiffon saree",
+    "image": "http://localhost:5000/imgs/saree3.webp",
+    "price": 2000,
+    "delivery": "free delivery",
+    "ratings": 4.4,
+    "description": "Lightweight chiffon saree with printed patterns",
+    "size": "free size"
+  },
+  {
+    "text": "georgette saree",
+    "image": "http://localhost:5000/imgs/saree4.webp",
+    "price": 2500,
+    "delivery": "free delivery",
+    "ratings": 4.6,
+    "description": "Trendy georgette saree suitable for festivals and events",
+    "size": "free size"
+  }
+]
