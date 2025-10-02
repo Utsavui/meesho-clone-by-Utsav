@@ -2,10 +2,11 @@ import express from "express";
 import cors from "cors";
 import fs from "fs";
 import path from "path";
+import bodyParser from "body-parser";
 const app = express();
 app.use(cors());  // CORS enable
 app.use(express.json());
-
+app.use(bodyParser.json())
 
 app.use("/imgs",express.static("imgs"));
 
@@ -15,6 +16,16 @@ app.use("/imgs",express.static("imgs"));
 app.get("/", (req, res) => {
 
   res.send("hi")
+});
+app.post("/api/form",(req,res)=>{
+const data=req.body
+console.log(data)
+res.send({messge:"data Received",data})
+});
+app.get("/api/form",(req,res)=>{
+const data=req.body
+console.log(data)
+res.send(data)
 });
 
 app.get("/api/foryou",async (req, res) => {
