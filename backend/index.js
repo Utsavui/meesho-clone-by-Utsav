@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import bodyParser from "body-parser";
 const app = express();
+const port =process.env.PORT || 4000
 app.use(cors());  // CORS enable
 app.use(express.json());
 app.use(bodyParser.json())
