@@ -1,18 +1,18 @@
 
 [{"text":"saree", 
-"image":"http://localhost:5000/imgs/homeimgs.webp",
+"image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
     "price":2000,
     "delivery":"free delivery",
     "ratings":4.25
     },
     {"text":"search2",
-     "image":"http://localhost:5000/imgs/homeimgs.webp",
+     "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
     "price":3000,
     "delivery":"free delivery",
     "ratings":4.35
     },
      {"text":"search3",
-      "image":"http://localhost:5000/imgs/homeimgs.webp",
+      "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
     "price":3000,
     "delivery":"free delivery",
     "ratings":4.35

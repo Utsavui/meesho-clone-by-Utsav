@@ -1,6 +1,6 @@
 
 [{"text":"samsung", 
-"image":"http://localhost:5000/imgs/homeimgs.webp",
+"image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
     "price":2000,
     "delivery":"free delivery",
     "ratings":4.25,
@@ -8,7 +8,7 @@
     "size":"free"
     },
     {"text":"vivo",
-     "image":"http://localhost:5000/imgs/homeimgs.webp",
+     "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
     "price":3000,
     "delivery":"free delivery",
     "ratings":4.35,
@@ -16,7 +16,7 @@
     "size":"free"
     },
      {"text":"shirt",
-      "image":"http://localhost:5000/imgs/homeimgs.webp",
+      "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
     "price":3000,
     "delivery":"free delivery",
     "ratings":4.35,

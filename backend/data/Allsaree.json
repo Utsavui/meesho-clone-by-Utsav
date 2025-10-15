@@ -1,7 +1,7 @@
 [
   {
     "text": "cotton saree",
-    "image": "http://localhost:5000/imgs/saree1.webp",
+    "image": "https://meesho-backend-05rt.onrender.com/imgs/saree1.webp",
     "price": 1500,
     "delivery": "free delivery",
     "ratings": 4.5,
@@ -10,7 +10,7 @@
   },
   {
     "text": "silk saree",
-    "image": "http://localhost:5000/imgs/saree2.webp",
+    "image": "https://meesho-backend-05rt.onrender.com/imgs/saree2.webp",
     "price": 3000,
     "delivery": "free delivery",
     "ratings": 4.8,
@@ -19,7 +19,7 @@
   },
   {
     "text": "chiffon saree",
-    "image": "http://localhost:5000/imgs/saree3.webp",
+    "image": "https://meesho-backend-05rt.onrender.com/imgs/saree3.webp",
     "price": 2000,
     "delivery": "free delivery",
     "ratings": 4.4,
@@ -28,7 +28,7 @@
   },
   {
     "text": "georgette saree",
-    "image": "http://localhost:5000/imgs/saree4.webp",
+    "image": "https://meesho-backend-05rt.onrender.com/imgs/saree4.webp",
     "price": 2500,
     "delivery": "free delivery",
     "ratings": 4.6,
