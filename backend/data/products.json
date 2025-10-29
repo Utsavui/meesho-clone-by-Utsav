@@ -1,20 +1,92 @@
-
-[{"text":"saree", 
-"image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
-    "price":2000,
-    "delivery":"free delivery",
-    "ratings":4.25
-    },
-    {"text":"search2",
-     "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
-    "price":3000,
-    "delivery":"free delivery",
-    "ratings":4.35
-    },
-     {"text":"search3",
-      "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
-    "price":3000,
-    "delivery":"free delivery",
-    "ratings":4.35
-    }
-  ]
+[
+  {
+    "text": "Cotton Printed Saree",
+    "image": "https://i.pinimg.com/originals/03/3e/41/033e41a20c2e81ad2f0b36a91e020cb0.jpg",
+    "price": 1499,
+    "delivery": "Free Delivery",
+    "ratings": 4.3,
+    "description": "Beautiful cotton printed saree with soft fabric and elegant border.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Banarasi Silk Saree",
+    "image": "https://i.pinimg.com/originals/49/f2/2e/49f22e99a317d0a3f84b1df1b89d9573.jpg",
+    "price": 3199,
+    "delivery": "Free Delivery",
+    "ratings": 4.8,
+    "description": "Luxurious Banarasi silk saree with gold zari work — perfect for festive wear.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Chiffon Saree",
+    "image": "https://i.pinimg.com/originals/63/6b/77/636b776e00218a2d0678ad24a9bb2cf8.jpg",
+    "price": 1999,
+    "delivery": "Free Delivery",
+    "ratings": 4.5,
+    "description": "Lightweight chiffon saree with floral digital print and smooth texture.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Kanchipuram Silk Saree",
+    "image": "https://i.pinimg.com/originals/20/07/17/20071715af5566891db005bf1a54a047.jpg",
+    "price": 4499,
+    "delivery": "Free Delivery",
+    "ratings": 4.9,
+    "description": "Premium Kanchipuram silk saree with contrast pallu and traditional motifs.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Linen Cotton Saree",
+    "image": "https://i.pinimg.com/originals/31/1f/46/311f46e7d91a52a61d4dc8e3d229bcbb.jpg",
+    "price": 1699,
+    "delivery": "Free Delivery",
+    "ratings": 4.4,
+    "description": "Soft linen cotton saree for daily wear — breathable and classy look.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Organza Saree",
+    "image": "https://i.pinimg.com/originals/25/5c/f7/255cf7dfadfc9dc3b18b07b3af4b5c8b.jpg",
+    "price": 2599,
+    "delivery": "Free Delivery",
+    "ratings": 4.7,
+    "description": "Delicate organza saree with floral embroidery and lightweight design.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Georgette Saree",
+    "image": "https://i.pinimg.com/originals/89/02/06/8902063cfd54889edbd8cc4b3f33b7f7.jpg",
+    "price": 1899,
+    "delivery": "Free Delivery",
+    "ratings": 4.5,
+    "description": "Trendy georgette saree with fancy border and flowy texture.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Net Embroidered Saree",
+    "image": "https://i.pinimg.com/originals/6a/9b/34/6a9b343cc10b14a276b77b144999e93e.jpg",
+    "price": 2799,
+    "delivery": "Free Delivery",
+    "ratings": 4.6,
+    "description": "Stylish net saree with fine embroidery work and shining finish.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Tussar Silk Saree",
+    "image": "https://i.pinimg.com/originals/0f/bb/19/0fbb190c5391b9633ceec8a3c4e8e3f2.jpg",
+    "price": 3599,
+    "delivery": "Free Delivery",
+    "ratings": 4.8,
+    "description": "Pure tussar silk saree with elegant design and rich texture.",
+    "size": "Free Size"
+  },
+  {
+    "text": "Satin Party Wear Saree",
+    "image": "https://i.pinimg.com/originals/63/17/a3/6317a3b0f63a9b08e0d4c7b2ce415e87.jpg",
+    "price": 2299,
+    "delivery": "Free Delivery",
+    "ratings": 4.4,
+    "description": "Gorgeous satin saree with shiny look — perfect for evening events.",
+    "size": "Free Size"
+  }
+]
