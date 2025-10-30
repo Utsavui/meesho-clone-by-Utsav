@@ -1,26 +1,26 @@
 
 [{"text":"samsung", 
-"image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
+"image":"data:image/webp;base64,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",
     "price":2000,
     "delivery":"free delivery",
     "ratings":4.25,
-    "description":"samsung phone hai",
+    "description":"samsung S24 pro",
     "size":"free"
     },
-    {"text":"vivo",
-     "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
+    {"text":"Asus laptops",
+     "image":"https://th.bing.com/th/id/OIP.WCCq2nZelTZuFIRbJF7AuAHaEK?w=286&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     "price":3000,
     "delivery":"free delivery",
     "ratings":4.35,
-    "description":"vivo phone hai",
+    "description":"Asus laptops ",
     "size":"free"
     },
      {"text":"shirt",
-      "image":"https://meesho-backend-05rt.onrender.com/imgs/homeimgs.webp",
+      "image":"https://th.bing.com/th/id/OIP.aEF2BMiQH7gUZJrpllBaTwHaJ1?w=208&h=278&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
     "price":3000,
     "delivery":"free delivery",
     "ratings":4.35,
-    "description":"shirt phone hai",
+    "description":"Men Shirt",
     "size":"free"
     }
   ]
