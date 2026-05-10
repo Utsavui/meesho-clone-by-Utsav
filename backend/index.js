@@ -1,14 +1,24 @@
 import express from "express";
+import mongoose from "mongoose";
 import cors from "cors";
+import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
 import bodyParser from "body-parser";
+import { type } from "os";
+import {orderpro} from "../mongodb/schema.js"
+import { json } from "stream/consumers";
+dotenv.config()
 const app = express();
 app.use(cors());  // CORS enable
 app.use(express.json());
 app.use(bodyParser.json())
 
 app.use("/imgs",express.static("imgs"));
+
+mongoose.connect(process.env.MEESHOURL)
+.then(()=>console.log("sucess"))
+.catch((err)=>console.log(err))
 
 
 
@@ -40,6 +50,56 @@ if(products){
 }
  
 });
+let sendget=[]
+
+app.post("/ordercofrm", async (req, res) => {
+
+  try {
+
+    const orders = req.body;
+  
+
+    const savedOrders = await orderpro.insertMany(orders);
+sendget.push(savedOrders)
+    res.status(201).json({
+      message: "Orders saved successfully",
+      data: savedOrders
+    });
+
+  } catch (error) {
+
+    res.status(500).json({
+      error: error.message
+    });
+
+  }
+
+});
+
+
+
+app.get("/ordercofrm",(req,res)=>{
+  
+  try{
+    if(sendget.length>0){
+res.status(200).send("data received")
+
+    }
+    else{
+      res.send("nothing")
+    }
+  }
+  catch(err){
+    res.send(err)
+  }
+ 
+ 
+
+ 
+  
+})
+
+
 
 app.get("/search",(req,res)=>{
   const products=  JSON.parse(fs.readFileSync("./data/products.json","utf-8"))
